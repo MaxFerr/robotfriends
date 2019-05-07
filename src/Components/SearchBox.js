@@ -8,10 +8,7 @@ const searchBox=({searchField,searchChange})=>{
 			type='search' 
 			placeholder='Search robots'
 			onChange={searchChange}
-			/>
-			<button 
-			className='bg-animate bg-lightest-blue hover-bg-gray items-center pa3' 
-			type="submit">Enter</button>
+			/>			
 		</div>
 		);
 }
